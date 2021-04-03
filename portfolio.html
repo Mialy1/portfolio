@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="lib/css/portfolio.css">
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="menu">
+					<h3 class="logo">MIALY<span>RV</span></h3>
+					<div class="hamburger-menu">
+						<div class="bar"> </div>
+						
+					</div>
+					
+				</div>
+			</div>
+			<div class="main-container" >
+				<div class="main">
+					<header>
+						<div class="overlay">
+							<div class="inner">
+								<h2 class="title">Future is here</h2>
+								<p>Welcome to my web-site, I hope you'll enjoy it. Kiss everyone, I love youuuu</p>
+								<a href="#" class="btn">Read more</a>
+							</div>
+						</div>
+					</header>
+				</div>
+			</div>
+			<div id="navbar" class="links">
+				<ul>
+					<li>
+						<a href="#CompteARebours" style="--i:0.5s">Compte a rebours</a>
+					</li>
+					
+					<li>
+						<a href="#Palindrome" style="--i:0.75s">Palindrome</a>
+					</li>
+					<li>
+						<a href="#toDolist" style="--i:1s">To do list</a>
+					</li>
+					<li>
+						<a href="#convertisseur" style="--i:1.25s">Convertisseur de devise</a>
+					</li>
+					<li>
+						<a href="#compteurDeMots" style="--i:1.5s">Compteur de mots</a>
+					</li>
+					<li>
+						<a href="#calculateurImc" style="--i:1.75s">Calculateur d'imc</a>
+					</li>
+					<li>
+						<a href="#date" style="--i:2s">Date</a>
+					</li>
+					
+					
+				</ul>
+				
+			</div>
+		</div>
+		<div class="countDown" id="CompteARebours">
+			<h2>Compte a rebours</h2>
+			<div class="formCountDown">
+				<input type="number" name="number" id="number" min="1" >
+				<div>
+					<button class="btnPlay" id="play">Play</button>
+				</div>
+			</div>
+		</div>
+		<div class="toDolist" id="toDolist">
+			<h2>TODO<span class="list">list</span></h2>
+			<div class="formTodoList" id="formTodoList">
+				<input type="text" name="toDo" id="toDo" placeholder="Qu'est-ce que vous voulez faire?">
+				
+				<button class="btnAdd">+</button>
+			</div>
+			<div class="work">Work</div>
+			<div class="persevere">Persevere</div>
+			<div class="pray">Pray</div>
+			<div class="girlPower">Girl Power</div>
+			<div class="hope">Hope</div>
+			<div class="love">Love</div>
+			<div class="success">Success</div>
+		</div>
+		<div class="Palindrome" id="Palindrome">
+			<h2>Palindrome</h2>
+			<p>Entrez un mot, je vais vous dire si c'est un palindrome ou pas</p>
+			<div class="formPalindrome" id="formPalindrome">
+				<input type="text" name="word" id="word" placeholder="Entrez un mot" >
+				<button class="btnTest">Tester</button>
+			</div>
+		</div>
+		<div class="compteurDeMots" id="compteurDeMots">
+			<h2>Compteur de mots et de lettres </h2>
+			<div class="formCountWords" id="formCountWords">
+				<input type="text" name="words" id="sentences" placeholder="Entrez un mot ou une phrase">
+				<button class="btnCount">Compter</button>
+			</div>
+		</div>
+		<div class="convertisseur" id="convertisseur">
+			<h2>Convertisseur de devise</h2>
+			<div class="formConvertisseur" id="formConvertisseur">
+				<input type="number" name="money" id="money" placeholder="Entrez votre argent en Ariary">
+				<button class="btnConvert">Convertir</button>
+			</div>
+		</div>
+		<div class="calculateurImc" id="calculateurImc">
+			<h2>Calculateur d'IMC</h2>
+			<div class="formCalculImc" id="formCalculImc">
+				<div class="poids">
+					<label>Poids:</label>
+					<input type="number" name="poids" id="poids" placeholder="Entrez votre poids" min="1">
+					
+				</div>
+				<div class="taille">
+					<label>Taille:</label>
+					<input type="number" name="taille" id="taille" placeholder="Entrez votre taille" min="1">
+					
+				</div>
+				<button class="btnImc">Calculer</button>
+			</div>
+		</div>
+		<div class="portfolio" id="portfolio">
+			<a href="file/cvMialy.pdf">Voir Cv</a>
+		</div>
+		<div class="date" id="date">
+			<h2>Check the date</h2>
+			<div class="date-contain"> 
+				<div class="mois"></div>
+				<div class="jour"></div>
+				<div class="chiffre"></div>
+				<div class="annee"></div>
+			</div>
+
+			
+		</div>
+
+		<div class="horloge">
+			<h2>The time is now</h2>
+			<div class="hour-contain">
+				<div class="heure">
+					<div class="heureValue"></div>
+					<h5>Heures</h5>
+				</div>
+				<div class="minutes">
+					<div class="minuteValue"></div>
+					<h5>Minutes</h5>
+				</div>
+				<div class="secondes">
+					<div class="secondeValue"></div>
+					<h5>Secondes</h5>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="lib/js/app.js"></script>
+		<script type="text/javascript" src="lib/js/countDown.js"></script>
+		<script type="text/javascript" src="lib/js/toDoList.js"></script>
+		<script type="text/javascript" src="lib/js/palindrome.js"></script>
+		<script type="text/javascript" src="lib/js/countWords.js"></script>
+		<script type="text/javascript" src="lib/js/convertisseurDevise.js"></script>
+		<script type="text/javascript" src="lib/js/calculateurImc.js"></script>
+		<script type="text/javascript" src="lib/js/date.js"></script>
+		<script type="text/javascript" src="lib/js/horloge.js"></script>  
+	</body>
+</html>
