@@ -4,10 +4,13 @@
 	box-sizing: border-box;
 }
 
-body{
+
+html, body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #fff;
+	scroll-behavior: smooth;
 }
+
 
 .container{
 	width: 1200px;
@@ -15,9 +18,11 @@ body{
 }
 
 .navbar{
+	position: fixed;
 	width: 100%;
 	height: 70px;
 	background-color: #002347;
+	z-index: 100;
 }
 .navbar .logo{
 	font-size: 1.1rem;
@@ -37,6 +42,8 @@ body{
 	color: white;
 }
 
+
+
 .navbar .links{
 	display: inline-block;
 	line-height: 70px;
@@ -55,12 +62,15 @@ body{
 	color: white;
 }
 
+.links a:hover{
+	color: rgb(254,153,16);
+}
 .intro{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	/*padding: 350px 0;*/
-	padding: 285px 0 350px 0;
+	padding: 355px 0 350px 0;
 
 	background-image: url('../img/pexels-munzir-3560189.jpg');
 	background-size: cover;
@@ -87,8 +97,8 @@ body{
 /*A propos*/
 
 .apropos{
-	padding: 100px 0;
-	padding-bottom: 200px;
+	padding: 200px 0;
+	/*padding-bottom: 150px;*/
 	background-color: #fff;
 }
 
@@ -117,12 +127,30 @@ body{
 
 /*Competences*/
 .competence{
-	padding: 100px 0 200px 0;
+	padding: 150px 0 150px 0;
 	background-color: #0a5a8a;
 }
 
+.competence .cv {
+	text-align: center;
+
+}
+
+.competence .cv a{
+	font-size:20px;
+	padding: 10px 20px;
+	color: #fff;
+	border: 3px solid rgb(254,153,16);
+	border-radius:20px;
+	text-decoration: none;
+} 
+
+.competence .cv a:hover{
+	background-color: rgb(254,153,16) 
+} 
+
 .competence h2{
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 	margin-bottom: 85px;
 }
@@ -131,6 +159,7 @@ body{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	margin-bottom:80px;
 }
 .competence .competence-item{
 	width: 300px;
@@ -155,10 +184,10 @@ body{
 /*Hobbies*/
 
 .hobbies {
-	padding: 100px 0 200px 0;
+	padding: 150px 0 200px 0;
 }
 .hobbies h2{
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -213,6 +242,10 @@ body{
 	background-color: #FFF;
 }
 
+i.fa.fa-phone{
+	transform: rotate(90deg);
+}
+
 .contacts{
 	font-size:20px;
 	display: flex;
@@ -238,7 +271,7 @@ body{
 
 .contact h2{
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 	margin-bottom: 50px;
 }

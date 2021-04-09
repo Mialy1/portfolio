@@ -4,8 +4,9 @@
 	box-sizing: border-box;
 }
 
-body{
+html,body{
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 
 .container{
@@ -48,8 +49,13 @@ body{
 	line-height: 4rem; 
 }
 
-.logo span{
-	font-weight: 200;
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+
+.logo a:hover{
+	color: rgb(254,153,16);
 }
 
 .hamburger-menu{
@@ -665,7 +671,7 @@ input{
 }
 
 .calculateurImc{
-	padding: 300px 0  250px 0;
+	padding: 250px 0  250px 0;
 	background-color: #485461;
 }
 
@@ -728,7 +734,7 @@ input{
 
 
 .date{
-	padding: 300px 0  250px 0;
+	padding:100px 0  250px 0;
 	background-color: #485461;
 }
 
