@@ -1,0 +1,231 @@
+@media screen and (min-width: 300px) and (max-width: 767px) {
+	*{
+		line-height: 1.6;
+	}
+
+	body{
+		font-family: 'Poppins', sans-serif;
+		scroll-behavior: smooth;
+	}
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	/*nav*/
+	.navbar{
+		display: block;
+		height: auto;
+		padding: 15px 0;
+	}
+
+	.navbar .logo{
+		font-size: 15px;
+
+		line-height: 1.6;
+
+		display: block;
+		text-align: center;
+		
+		margin-left: 0;
+	}
+
+	
+	.navbar .links{
+		text-align: center;
+		display: block;
+		line-height: 1.6;
+		float: none;
+		
+
+	}
+
+	.navbar .links li {
+		display: inline-block;
+		width: 49%;
+		margin-right: 0;
+
+	}
+
+	/*intro*/
+
+	.intro{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 145px 0 25px 0;
+		text-align: center;
+		color: #fff;
+	}
+
+	.intro h1{
+		font-size: 20px;
+	}
+	
+	.intro h3{
+		font-family: 'comic sans ms';
+		font-size: 15px;
+	}
+
+		/*A propos*/
+
+	.apropos{
+		padding: 20px 0;
+		/*padding-bottom: 150px;*/
+		background-color: #fff;
+		font-size:20px;
+		text-align: center;
+	}
+
+	.apropos-contenu{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.apropos-contenu img{
+		width: auto;
+		height: 200px;
+		border-radius: 20px;
+	}
+	.apropos-contenu h3{
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.apropos-contenu p{
+		font-size: 10px;
+		
+	}
+
+	/*Competences*/
+
+	.competence{
+		padding: 20px 0;
+	}
+
+	.competence h2{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.competence h5{
+		padding: 20px 0;
+		font-size: 15px;
+	}
+
+	.competence-contenu{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+
+	
+	}
+
+	.competence .competence-item{
+		width: 200px;
+		padding: 0 10px 30px 10px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	.competence-item img{
+		width: 40px;
+		height: 40px;
+	}
+
+	.competence-item p{
+		font-size: 10px;
+	}
+	.competence .cv a{
+		font-size:10px;
+		padding: 5px 10px;
+	} 
+
+
+	/*Hobbies*/
+
+	.hobbies {
+		padding-top: 20px
+	}
+
+	.hobbies h2{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.hobbies h5{
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	.hobbies-contain{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+
+	
+	}
+
+	.hobbies .lecture, .internet{
+		margin-right: 0;
+	}
+
+	.hobbies  img{
+		width: 150px;
+		height: 150px;
+	
+
+	}
+
+	/*galerie*/
+
+	.galerie {
+		padding-top: 0;
+		text-align: center;
+
+	}
+
+	.galerie h2{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.galerie  img{
+
+		width: 150px;
+		height: 150px;
+		
+
+	}
+
+	/*footer*/
+
+	.footer{
+		padding-top: 85px;
+	}
+
+	.contact{
+		padding: 20px 0;
+
+	}
+
+	.contact h2{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.contact i{
+		margin-right: 5px;
+	}
+	.contacts{
+		font-size:15px;
+		
+	}
+
+	
+/* Styles in this block are only applied if the screen size is atleast 300px wide, but no more
+than 767px */
+}

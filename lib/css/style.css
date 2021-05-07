@@ -65,6 +65,7 @@ html, body{
 .links a:hover{
 	color: rgb(254,153,16);
 }
+
 .intro{
 	display: flex;
 	justify-content: space-around;
@@ -134,24 +135,6 @@ html, body{
 	background-color: #0a5a8a;
 }
 
-.competence .cv {
-	text-align: center;
-
-}
-
-.competence .cv a{
-	font-size:20px;
-	padding: 10px 20px;
-	color: #fff;
-	border: 3px solid rgb(254,153,16);
-	border-radius:20px;
-	text-decoration: none;
-} 
-
-.competence .cv a:hover{
-	background-color: rgb(254,153,16) 
-} 
-
 .competence h2{
 	font-size: 50px;
 	text-align: center;
@@ -183,6 +166,24 @@ html, body{
 	padding: 32px 0;
 	font-size: 20px;
 }
+
+.competence .cv {
+	text-align: center;
+
+}
+
+.competence .cv a{
+	font-size:20px;
+	padding: 10px 20px;
+	color: #fff;
+	border: 3px solid rgb(254,153,16);
+	border-radius:20px;
+	text-decoration: none;
+} 
+
+.competence .cv a:hover{
+	background-color: rgb(254,153,16) 
+} 
 
 /*Hobbies*/
 
